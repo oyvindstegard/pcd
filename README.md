@@ -1,19 +1,23 @@
 # Project change directory – pcd
 
-Bash shell script code for jumping between project directories, including auto
-completion.
+Bash shell script code for navigating between project directories on the command
+line, including auto completion.
 
 ## Installation
 
 1. Copy [`pcd.sh`](pcd.sh) to your home directory:
 
-        curl https://raw.githubusercontent.com/oyvindstegard/pcd/main/pcd.sh \
-             -o ~/.pcd.sh
+```
+curl https://raw.githubusercontent.com/oyvindstegard/pcd/main/pcd.sh \
+     -o ~/.pcd.sh
+```
              
 2. Add code to shell init file `~/.bashrc`:
 
-        PROJECTS_PATH=~/your-projects-root-directory
-        source ~/.pcd.sh
+```
+PROJECTS_PATH=~/your-projects-root-directory
+source ~/.pcd.sh
+```
     
 3. Open a shell, type `pcd` and hit <kbd>TAB</kbd> three times – you should see
    your project directories being auto completed.
