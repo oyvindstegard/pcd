@@ -18,7 +18,7 @@ curl https://raw.githubusercontent.com/oyvindstegard/pcd/main/pcd.sh \
 PROJECTS_PATH=~/your-projects-root-directory
 source ~/.pcd.sh
 ```
-    
+
 3. Open a shell, type `pcd` and hit <kbd>TAB</kbd> three times – you should see
    your project directories being auto completed.
 
